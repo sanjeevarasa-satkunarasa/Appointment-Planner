@@ -16,19 +16,19 @@ function App() {
   contacts and appointments
   */
   const addContacts = (name, phone, email) => {
-    setContacts[contacts..., {
+    setContacts(contacts..., {
       name: name,
       phone: phone,
       email: email
-    }]
+    })
   }
 
   const addAppointments = (name, date, time) => {
-    setAppointments[appointments..., {
+    setAppointments(appointments..., {
       name: name,
       date: date,
       time: time
-    }]
+    })
   }
 
   const router = createBrowserRouter(createRoutesFromElements(
